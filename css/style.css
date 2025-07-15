@@ -1,0 +1,67 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Base styling */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header and footer */
+header, footer {
+  background-color: #003366;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+/* Navigation menu */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main content */
+main {
+  padding: 2rem;
+}
+
+/* Section titles */
+h2 {
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+/* Images styling */
+.images {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.images img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Resource links */
+ul.resource-links {
+  list-style: none;
+  padding: 0;
+}
+
+ul.resource-links li {
+  margin-bottom: 0.5rem;
+}
